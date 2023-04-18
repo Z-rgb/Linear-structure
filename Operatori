@@ -1,0 +1,54 @@
+package djurkovic.zoran;
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		
+		//operatori
+		
+		//binarni operatori
+		
+		// 5 + 10   osnovni artimeticki operator +
+		
+		// =   mislimo na operatora dodele vrednost
+		// vrednost koja se nalazi sa desne strane znaka = dodeliju se promenjivoj koja se nalazi sa leve strane
+		
+		int a = 5;
+		int b = 50;
+		
+		int zbir = a + b;
+		
+		System.out.println(zbir);
+		
+		// plus +  je binarni operator
+		// -, *, /, %
+		
+		int razlika = b - a;
+		
+		System.out.println(razlika);
+		
+		int mnozenje = b * a;
+		
+		System.out.println(mnozenje);
+		
+		float kolicnik = a/b;  //operatror / predstavlja celobrojno deljenje
+		
+		System.out.println(kolicnik);
+		
+		 int ostatak  = 16 % 3;  // deljenje sa ostatkom
+		 
+		 System.out.println(ostatak);
+		 
+		 float tacnodelenje =  17f / 3f ;
+		 
+		 double tacnodelenje1 =  (double)50/3 ; //eksplicitna konverzijaok
+		 
+		 System.out.println(tacnodelenje);
+		 System.out.println(tacnodelenje1);
+		 
+		 
+
+	}
+
+}
