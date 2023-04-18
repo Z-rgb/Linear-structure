@@ -1,0 +1,29 @@
+package UUP;
+
+import java.io.BufferedReader;
+import java.io.InputStreamReader;
+import java.text.DecimalFormat;
+
+public class Zadatak1 {
+	public static void main(String[] args) throws Exception {
+	
+		DecimalFormat df = new DecimalFormat("#.##");
+		
+		BufferedReader ulaz = new BufferedReader(new InputStreamReader(System.in)); 
+		                            
+		
+		double x = Double.parseDouble(ulaz.readLine());
+		
+		System.out.print("Unesite vrednost za y: ");
+		double y = Double.parseDouble(ulaz.readLine());
+		
+		System.out.print("Unesite vrednost za z: ");
+		double z = Double.parseDouble(ulaz.readLine());
+		
+		
+	      double f = (x + y) * (x + z) * Math.sin(x) / (2 * x - y);
+	 
+	
+		 System.out.println("Vrednost funkcije f je " +  df.format(f));
+	}
+}
